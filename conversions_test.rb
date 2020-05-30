@@ -1,11 +1,11 @@
 require_relative './conversions.rb'
 
-puts "ounces to grams, when given 0, return 0.0"
-answer = ounces_to_grams(0)
+puts "ounces to grams, when given 0, returns 0.0"
+answer = ounce_to_grams(0)
 if answer == 0.0
-  puts "Passed!"
+  puts "Passed"
 else
-  puts "Test failed: got #{answer} instead"
+  puts "Test failed: gpt #{answer} instead"
 end
 
 puts "Given 0, it should return 0.0"
